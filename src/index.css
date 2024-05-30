@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #010118;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+.ex-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.name{
+    width: 5rem;
+}
+.price{
+    width: 5rem;
+
+}
+.rank{
+    width: 5rem;
+}
